@@ -2,16 +2,12 @@
     "manifest_version": 3,
     "name": "github workflow search",
     "version": "1.0",
-    "description": "",
+    "description": "This is a tool to list and search github workflows.",
     "action": {
-      "default_popup": "public/popup.html"
+      "default_popup": "src/main/public/popup.html"
     },
     "permissions": [
       "activeTab",
       "scripting"
-    ],
-    "icons": {
-      "48": "images/icon48.png",
-      "128": "images/icon128.png"
-    }
+    ]
 }
