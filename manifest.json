@@ -6,6 +6,12 @@
     "action": {
       "default_popup": "src/main/public/popup.html"
     },
+    "content_scripts": [
+      {
+        "matches": ["https://github.com/*/*/actions/*"],
+        "js": ["dist/content.js"]
+      }
+    ],
     "permissions": [
       "activeTab",
       "scripting"
