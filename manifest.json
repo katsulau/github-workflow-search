@@ -8,8 +8,7 @@
     },
     "permissions": [
       "activeTab",
-      "scripting",
-      "storage"
+      "scripting"
     ],
     "icons": {
       "48": "images/icon48.png",
