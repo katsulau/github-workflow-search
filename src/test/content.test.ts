@@ -1,6 +1,6 @@
-import {workflowListLoader} from "../main/scripts/content";
+import {createWorkflowListLoader} from "../main/scripts/content";
 
 test("check", () => {
-    workflowListLoader()
+    createWorkflowListLoader(document);
 });
 
